@@ -1,0 +1,115 @@
+# WEBSOCKETS TUTORIAL: CHATROOM
+-------------------------------
+
+* Introduction
+--------------
+1 min
+In the last lesson, you learned about the conceptual foundations of the WebSocket protocol and WebSocket applications. Now, it’s time to apply those concepts and build a WebSocket 
+application!
+
+Throughout this course, you will build a chatroom application while learning about the ws package for building a WebSocket server and the browser-native WebSocket API for building a 
+WebSocket Client.
+
+By the end of this lesson you will be able to:
+
+	. Create a WebSocket server using the ws package
+
+	. Create a WebSocket client using the WebSocket API
+
+	. Establish and respond to WebSocket connections between your client and server
+
+	. Send messages from the client and receive them on the server
+
+	. Send messages from the server and receive them on the client
+
+	. Implement the broadcast pattern to send a single message to multiple clients
+
+	. Implement custom message types
+
+You’ll build this WebSocket application on your own machine rather than on Codecademy.com. Every exercise will have written instructions as well as an accompanying video that shows one of 
+our team members implementing those instructions in their code editor. If you ever get stuck, you can always code along with the video.
+
+Before taking this course, make sure you have completed the Learn Node.js course as well as the previous lesson on WebSockets Concepts.
+
+* Instructions
+--------------
+Task 1
+Before we begin learning about implementing a WebSockets application, click on the link below to download the starter code .zip file for the project you will be working on. Make sure to 
+store this file in a location that you can find easily before unzipping it!
+
+web-socket-chat-starter-code.zip
+
+Help
+Here’s an article about unzipping a .zip file if you need some help!
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
