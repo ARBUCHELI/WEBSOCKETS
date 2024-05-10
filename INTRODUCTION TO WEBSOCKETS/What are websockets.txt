@@ -199,6 +199,80 @@ for the https:// and wss:// protocols.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Apps that Benefit from WebSockets
+-----------------------------------
+3 min
+So far we’ve learned about the communication capabilities of WebSocket connections, the benefits of persistent connections, some details about how an HTTP connection can be upgraded to a 
+WebSocket connection during the handshake process, and about secure WebSocket connections using wss://. As a final step, let’s discuss the applications for which WebSockets can be most 
+beneficial.
+
+WebSockets are the go-to approach for applications that need real-time data. Before WebSockets, many web developers had to rely on abusing the HTTP protocol by repeatedly making HTTP 
+requests in quick succession to simulate continuous streams of data. This resulted in excessive headers, latency buildup, and difficulty tracking each client’s current state.
+
+However, WebSockets aren’t always the superior solution compared to basic HTTP connections so you should consider carefully if WebSockets are needed for your application. To help, you can 
+ask yourself these two questions:
+
+	. Does the application involve multiple users communicating with each other?
+
+	. Is the application a window into server-side data that’s constantly changing?
+
+Answering “yes” to either of these questions indicates the need for WebSockets technology.
+
+* Instructions
+--------------
+Take a look at the four examples of applications that would benefit from WebSockets. For each, consider which of the two questions you might answer “yes” to as well as the ways in which 
+HTTP connections would struggle to perform.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* Review
+--------
+1 min
+Congratulations! In this lesson you have built a strong conceptual foundation of what WebSockets are and how they are created. With the growing number of real-time applications, 
+WebSockets introduced an alternative to repetitive HTTP requests in order to build websites with continuous, bidirectional communication. Here’s what else you learned:
+
+	. WebSockets allow for bidirectional communication between client and server allowing for a continuous flow of real-time data.
+
+	. Common communication patterns involve both client and server bi-directional communication along with broadcasting, which refers to a server being able to communicate with 
+	multiple clients.
+
+	. WebSocket connections are persistent giving them the advantage of lower overhead and being stateful compared to a stateless connection protocol like HTTP.
+
+	. The foundation for a WebSocket connection begins with an HTTP request and response called a handshake which aims to replace the HTTP protocol with a WebSocket protocol over a 
+	single TCP connection.
+
+	. A client can initiate a handshake with a special Upgrade header. A server can complete the handshake by sending back a response with the 101 Switching Protocols header.
+
+	. WebSockets are ideal for applications dealing with real-time data such as data trackers, multiplayer games, collaborative document editing, and social feeds and chat rooms.
+
+	. wss:// connections function just like ws:// ones, except that the initial handshake takes place over HTTPS instead of HTTP.
+
+Now that you have a sense for what a WebSocket connection is and how they are formed we are ready to start building applications with WebSockets!
+
+* Instructions
+--------------
+The table to our right shows the contrast between WebSockets and traditional HTTP connections, revealing many of the benefits of using WebSockets for real-time applications.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
